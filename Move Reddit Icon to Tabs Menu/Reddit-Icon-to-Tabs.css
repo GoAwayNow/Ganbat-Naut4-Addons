@@ -1,0 +1,21 @@
+/* Reddit link in tab menu */
+#header-img-a {
+    position: relative;
+    top: 55px;
+}
+
+.submit-page #header-img-a {
+    position: unset;
+    top: 0;
+}
+
+.tabmenu li {
+    left: 60px;
+    position: relative;
+}
+
+.submit-page .tabmenu li {
+    left: 0;
+    position: unset;
+}
+/* End Reddit link in tab menu */
