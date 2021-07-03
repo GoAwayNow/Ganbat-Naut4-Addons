@@ -1,0 +1,5 @@
+/* Dark bottommenu links for light footer */
+.bottommenu a {
+    color: grey!important;
+}
+/* End dark bottommenu links */
