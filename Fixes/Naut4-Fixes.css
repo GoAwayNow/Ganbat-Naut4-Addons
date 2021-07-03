@@ -1,0 +1,25 @@
+/* Naut Fixes */
+.res .commentarea .panestack-title {
+    z-index:42;
+}
+
+.expando-button.image.collapsed {
+    background-position: -32px -64px;
+}
+
+.post-sharing .c-close {
+    text-indent: -9999px;
+}
+
+.NERPageMarker .gearIcon {
+    padding: 8px;
+}
+
+#progressIndicator .gearIcon {
+    padding: 0px 8px;
+}
+
+.NERPageMarker .gearIcon:after, #progressIndicator .gearIcon:after {
+    display:none;
+}
+/* End Naut Fixes */
