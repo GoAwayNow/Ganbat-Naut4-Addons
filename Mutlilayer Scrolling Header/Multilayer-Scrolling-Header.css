@@ -1,0 +1,41 @@
+/* Multilayer scrolling header */
+#header {
+    box-shadow: inset 0 0 0 1000px rgba(128,128,128,.5);
+    background-image: url(%%headerscroll%%), url(%%headerimg%%);
+    background-position:50% 50%, 50% 50%;
+    background-size: cover, cover;
+    background-repeat: repeat, no-repeat;
+    animation-name: layerscroll;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes layerscroll {
+    0% {
+        background-position: 0px 50%, 50% 50%;
+    }
+    100% {
+        background-position: 1920px 50%, 50% 50%;
+    }
+}
+
+@-webkit-keyframes layerscroll {
+    0% {
+        -webkit-background-position: 0px 50%, 50% 50%;
+    }
+    100% {
+        -webkit-background-position: 1920px 50%, 50% 50%;
+    }
+}
+
+@-moz-keyframes layerscroll {
+    0% {
+        -moz-background-position: 0px 50%, 50% 50%;
+    }
+    100% {
+        -moz-background-position: 1920px 50%, 50% 50%;
+    }
+}
+/* End Multilayer scrolling header */
