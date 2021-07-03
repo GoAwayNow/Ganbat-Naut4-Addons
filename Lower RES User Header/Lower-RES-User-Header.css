@@ -1,0 +1,19 @@
+/* Lower RES header user options */
+.res #RESShortcutsEditContainer {
+    margin-right:0px;
+}
+
+.res-subredditManager #sr-header-area {
+    position:absolute;
+    top:0px;
+    background:rgb(0 0 0 / 35%);
+    width:100%;
+}
+
+.res #header-bottom-right {
+    top:24px;
+    height:24px;
+    background:rgb(0 0 0 / 35%);
+    padding-left:8px;
+}
+/* End lower RES header user options */
