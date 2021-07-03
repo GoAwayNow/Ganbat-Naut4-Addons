@@ -1,0 +1,13 @@
+/* Header mascot */
+#header:before {
+   display: block;
+   position:relative;
+   content: "";
+   background:url(%%bannerMascot%%);
+   background-repeat:no-repeat;
+   height:100%;
+   background-size:contain;
+   margin-left:20px;
+   z-index:-1;
+}
+/* End header mascot */
