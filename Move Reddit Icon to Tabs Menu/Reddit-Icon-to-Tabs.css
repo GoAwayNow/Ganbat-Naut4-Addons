@@ -1,8 +1,18 @@
 /* Reddit link in tab menu */
+
+/* This only works if your subreddit doesn't have a header image defined in settings. */
+/* If it does and you don't want to remove it, comment this next block and uncomment #header-img-a. */
+#header-img {
+    position: relative;
+    top: 55px;
+}
+
+/*
 #header-img-a {
     position: relative;
     top: 55px;
 }
+*/
 
 .submit-page #header-img-a {
     position: unset;
