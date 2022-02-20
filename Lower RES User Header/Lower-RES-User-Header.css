@@ -16,4 +16,12 @@
     background:rgb(0 0 0 / 35%);
     padding-left:8px;
 }
+
+#sr-header-area .width-clip {
+    right:0px;
+}
+
+.res #RESShortcutsViewport {
+    margin-right:74px;
+}
 /* End lower RES header user options */
